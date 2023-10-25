@@ -11,7 +11,7 @@ The code is organized into different sections, each of which performs specific t
 - Shows the shape of the dataset.
 - Group the data by 'area_type' and aggregates the counts.
 
-## Data Preprocessing
+### Data Preprocessing
 - Removes unnecessary columns ('area_type', 'society', 'balcony', 'availability').
 - Handles missing values by dropping rows with missing values.
 - Extracts the number of bedrooms ('bhk') from the 'size' column.
