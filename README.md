@@ -24,4 +24,12 @@ The code is organized into different sections, each of which performs specific t
 - Displays unique values in the 'bath' column.
 - Identifies and removes rows with an unusually high number of bathrooms.
 
+## Model Building
+- Prepares the data for machine learning by encoding categorical features.
+- Splits the dataset into features (X) and the target variable (y).
+- Splits the data into training and testing sets.
+- Builds a Linear Regression model and evaluates its performance using cross-validation.
+
+
+
 
