@@ -30,6 +30,10 @@ The code is organized into different sections, each of which performs specific t
 - Splits the data into training and testing sets.
 - Builds a Linear Regression model and evaluates its performance using cross-validation.
 
+## Hyperparameter Tuning
+- Uses GridSearchCV to find the best model among Linear Regression, Lasso, and Decision Tree Regression.
+
+
 
 
 
