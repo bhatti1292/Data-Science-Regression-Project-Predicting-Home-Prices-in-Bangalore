@@ -10,3 +10,11 @@ The code is organized into different sections, each of which performs specific t
 - Displays the first few rows of the dataset.
 - Shows the shape of the dataset.
 - Group the data by 'area_type' and aggregates the counts.
+
+## Data Preprocessing
+- Removes unnecessary columns ('area_type', 'society', 'balcony', 'availability').
+- Handles missing values by dropping rows with missing values.
+- Extracts the number of bedrooms ('bhk') from the 'size' column.
+- Converts non-numeric values in 'total_sqft' to a numeric representation.
+- Calculates the price per square foot.
+- Handles location data by categorizing locations with very few data points as 'other.'
