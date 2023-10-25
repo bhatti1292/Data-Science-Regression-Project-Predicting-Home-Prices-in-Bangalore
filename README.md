@@ -23,3 +23,5 @@ The code is organized into different sections, each of which performs specific t
 - Generates a histogram of 'price_per_sqft.'
 - Displays unique values in the 'bath' column.
 - Identifies and removes rows with an unusually high number of bathrooms.
+
+
