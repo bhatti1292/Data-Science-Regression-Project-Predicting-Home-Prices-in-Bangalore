@@ -19,6 +19,12 @@ The code is organized into different sections, each of which performs specific t
 - Calculates the price per square foot.
 - Handles location data by categorizing locations with very few data points as 'other.'
 
+## Outlier Detection and Removal
+
+- Identifies and removes outliers in the 'price_per_sqft' column.
+- Defines functions for scatter plots and outlier removal based on the number of bedrooms.
+- Removes outliers based on the number of bedrooms.
+
 ## Data Visualization
 - Generates a histogram of 'price_per_sqft.'
 - Displays unique values in the 'bath' column.
