@@ -1,7 +1,7 @@
 # Data-Science-Regression-Project-Predicting-Home-Prices-in-Bangalore
 This project is a Python-based solution for predicting house prices in Bangalore. It leverages machine learning and data analysis techniques to provide accurate price estimates based on various parameters.
 
-# Code Overview
+## Code Overview
 The code is organized into different sections, each of which performs specific tasks. Here's a brief overview of what each section does:
 
 ## Data Loading and Initial Exploration
@@ -11,7 +11,7 @@ The code is organized into different sections, each of which performs specific t
 - Shows the shape of the dataset.
 - Group the data by 'area_type' and aggregates the counts.
 
-### Data Preprocessing
+## Data Preprocessing
 - Removes unnecessary columns ('area_type', 'society', 'balcony', 'availability').
 - Handles missing values by dropping rows with missing values.
 - Extracts the number of bedrooms ('bhk') from the 'size' column.
