@@ -9,7 +9,7 @@ The code is organized into different sections, each of which performs specific t
 - Loads the dataset from 'Bengaluru_House_Data.csv' using Pandas.
 - Displays the first few rows of the dataset.
 - Shows the shape of the dataset.
-- Group the data by 'area_type' and aggregates the counts.
+- Group the data by 'area_type' and aggregates the counts. 
 
 ## Data Preprocessing
 - Removes unnecessary columns ('area_type', 'society', 'balcony', 'availability').
