@@ -18,3 +18,8 @@ The code is organized into different sections, each of which performs specific t
 - Converts non-numeric values in 'total_sqft' to a numeric representation.
 - Calculates the price per square foot.
 - Handles location data by categorizing locations with very few data points as 'other.'
+
+## Data Visualization
+- Generates a histogram of 'price_per_sqft.'
+- Displays unique values in the 'bath' column.
+- Identifies and removes rows with an unusually high number of bathrooms.
