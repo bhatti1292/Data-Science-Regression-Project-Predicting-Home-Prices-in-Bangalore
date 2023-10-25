@@ -33,6 +33,19 @@ The code is organized into different sections, each of which performs specific t
 ## Hyperparameter Tuning
 - Uses GridSearchCV to find the best model among Linear Regression, Lasso, and Decision Tree Regression.
 
+## Price Prediction Function
+- Defines a function to predict house prices based on location, square footage, number of bathrooms, and number of bedrooms.
+
+# Usage 
+You can use the trained model to predict house prices by providing the required input parameters (location, square footage, number of bathrooms, and number of bedrooms). Please refer to the code for an example of how to use the prediction function.
+
+# Model and Data
+
+The code uses a Linear Regression model for price prediction, and the data is based on the 'Bengaluru House Data' dataset provided in the code.
+
+Feel free to explore the code further and customize it to fit your specific needs. Enjoy predicting house prices in Bangalore!
+
+
 
 
 
